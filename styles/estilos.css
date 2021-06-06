@@ -1,0 +1,201 @@
+html {
+	box-sizing: border-box;
+}
+*,*:before,*:after {
+	box-sizing: inherit;
+	margin: 0;
+	padding: 0;
+}
+body {
+	font-family: sans-serif;
+}
+ul {
+	list-style: none;
+}
+a {
+	text-decoration:none ;
+}
+.contenedor {
+	width: 80vw;
+	margin: 0 auto;
+}
+.contenido {
+	width: 70%;
+	display: inline-block;
+}
+.img {
+	width: 29%;
+	vertical-align: top;
+	display: inline-block;
+	margin-top: 25px;
+}
+header{
+	background-color: #812fbc;
+	width: 100%;
+	color: #fff;
+}
+header div.contenedor-flex {
+	display: flex;
+	justify-content: center;
+}
+header div.header-content {
+	padding: 20px 0;
+	width: 70vw;
+	display: flex;
+	align-items: baseline;
+	justify-content: space-between;
+}
+header div .dev-info {
+	display: inline-block;
+}
+header div.add-inf {
+	background-color: #4f2f8e;
+	text-align: center;
+	padding: 6px 0;
+	font-size: 1.1em;
+}
+header div.header-content h1 {
+	font-size: 2.5em;
+	text-align: center;
+}
+header div.header-content p {
+	font-size:  1.1em;
+	text-align: center;
+}
+main div.contenedor {
+	width: 88vw;
+	margin: 0 auto;
+}
+main div.contenedor div.contenido h3{
+	font-size: 2.7em;
+	margin: 15px 0 10px 0;
+}
+main div.contenedor div.contenido div.listas {
+	margin-left: 10px;
+}
+main div.contenedor div.contenido div.listas dt {
+	font-weight: bold;
+	text-transform: uppercase;
+	font-size: 1.3em;
+}
+main div.contenedor div.contenido div.listas dd {
+	margin-left: 15px;
+	margin-bottom: 15px;
+	font-size: 1.18em;
+}
+div.prof-exp div.listas {
+	font-size: 1.1em;
+}
+div.educ-list div:last-child {
+	margin-top: 30px;
+}
+div.contenedor div.contenido > div {
+	margin-bottom: 60px;
+}
+div.social-media ul{
+	font-size: 1.5em;
+	color: #000;
+}
+a {
+	color: black;
+}
+.button {
+	display: inline-block;
+	margin-bottom: 15px;
+	color: #fff;
+	padding: 5px 10px;
+	background-color: #4f2f8e;
+	border-radius: 5px;
+}
+.button:hover {
+	background-color: #3c246b;
+}
+.icon::before {
+	display: inline-block;
+	font-style: normal;
+	font-variant: normal;
+	text-rendering: auto;
+	-webkit-font-smoothing: antialiased;
+	margin-right: 10px;
+	font-size: 1.3em;
+}
+.gh:before {
+	content: "\f09b";
+	font-family: "Font Awesome 5 Brands";
+	font-weight: 200;
+}
+ .tw::before {
+ 	content: "\f099";
+ 	font-family: "Font Awesome 5 Brands";
+ 	font-weight: 200;
+ 	color: #00acee;
+ }
+ .lki:before {
+	 content: "\f08c";
+	 font-family: "Font Awesome 5 Brands";
+	 font-weight: 200;
+	 color: #0077b5;
+ }
+ img {
+ 	max-width: 100%;
+	border-radius: 5px;
+ }
+ div.tech-manag ul li {
+	margin-top: 20px;
+	font-size: 1.25em;
+ }
+ div.tech-manag ul li:first-child {
+	 margin-top: 0;
+ }
+.pr::after {
+	content: "\f121";
+	font-family: "Font Awesome 5 Free";
+	font-weight: 600;
+	margin-left: 20px;
+	color: #4f2f8e;
+	font-size: .85em;
+ }
+ .educ::after {
+	content: "\f19d";
+	font-family: "Font Awesome 5 Free";
+	font-weight: 600;
+	margin-left: 20px;
+	color: #4f2f8e;
+	font-size: .85em;
+ }
+ .hl::after {
+	content: "\f13b";
+	font-family: "Font Awesome 5 Brands";
+	font-weight: 300;
+	margin-left: 10px;
+	color: #fd7e14;
+ }
+ .cs::after {
+	content: "\f38b";
+	font-family: "Font Awesome 5 Brands";
+	font-weight: 300;
+	margin-left: 10px;
+	color: #53abd8;
+ }
+ .js::after {
+	content: "\f3b9";
+	font-family: "Font Awesome 5 Brands";
+	font-weight: 300;
+	margin-left: 10px;
+	color: #f7df1e;
+ }
+.git::after {
+	content: "\f841" ;
+	font-family: "Font Awesome 5 Brands";
+	font-weight: 300;
+	margin-left: 10px;
+	color: #f15030;
+}
+.job::after {
+	content: "\f508";
+	font-family: "Font Awesome 5 Free";
+	font-weight: 600;
+	margin-left: 20px;
+	color: #4f2f8e;
+	font-size: .85em;
+}
